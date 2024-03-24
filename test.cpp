@@ -3,10 +3,9 @@
 using namespace std;
 
 struct temp {
-    double a;
-    char c;
-    int b;
-    
+    int a;
+    char c[20];
+    float b[2];
 };
 
 int main(){

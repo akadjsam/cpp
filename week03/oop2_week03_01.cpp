@@ -136,7 +136,7 @@ struct JobStruct // 총 크기는 40byte로 출력된다. 바이트패딩
     long salary;
     int workerId;
 }sJob;
-
+8u
 int main(){
     //uJob.salary = 1.1f;
     uJob.salary = 11;
