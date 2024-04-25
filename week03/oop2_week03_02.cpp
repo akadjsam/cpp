@@ -10,7 +10,7 @@ int main(){
     cout << *pi << endl;
     //pi = &d; 타입이 다르기 때문에 에러가 뜬다.
 
-    void* pv = &i; //voud 포인터
+    void* pv = &i; //void 포인터
     pv = &d; //void 포인터이므로 타입이 달라도 에러가 뜨지 않음.
 
     cout << *(double*)pv << endl; //어떤 타입의 값을 받았는지 기억 못하므로 타입을 명시해 줘야 함

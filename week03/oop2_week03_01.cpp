@@ -53,7 +53,7 @@
 // // struct Student
 // // {
 // //     int id; // 4
-// //     char name[20]; // 1
+// //     char name[20]; // 20
 // //     float grade[2]; // 8
 // // };
 // struct Rectangle
